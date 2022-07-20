@@ -149,5 +149,4 @@ startBtn.addEventListener("click", () => {
 
   currentQuestionIndex = 0;
   renderQuestion();
-
 });
