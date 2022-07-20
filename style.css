@@ -55,10 +55,18 @@ span {
 }
 
 .question { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border: 3px solid black;
-    /* position: absolute; */
     height: 500px;
     width: 500px;
+}
+
+.question form { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .timer {
@@ -72,3 +80,4 @@ span {
 ul { 
     text-align: center; 
 }
+
